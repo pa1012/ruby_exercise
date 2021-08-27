@@ -18,9 +18,9 @@ end
 
 caesar_cipher = CaesarCipher.new()
 
-p caesar_cipher.translate("What a string!", 5)
-p caesar_cipher.translate("Zz", 5)
-p caesar_cipher.translate("Ee", -5)
-p caesar_cipher.translate("Zz", 83)
-p caesar_cipher.translate("Ee", -83)
+p caesar_cipher.translate("What a string!", 5) # 'Bmfy f xywnsl!'
+p caesar_cipher.translate("Zz", 5) # "Ee"
+p caesar_cipher.translate("Ee", -5) # "Zz"
+p caesar_cipher.translate("Zz", 83) # "Ee"
+p caesar_cipher.translate("Ee", -83) # "Zz"
 
